@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "firstfinance"
+version = "0.1.0"
+description = "A analytical project for the Corporate Financial Analytics team"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+yfinance = "^0.2.36"
+pandas = "^2.2.0"
+matplotlib = "^3.8.2"
+ipykernel = "^6.29.0"
+statsmodels = "^0.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
